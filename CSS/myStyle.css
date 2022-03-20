@@ -9,8 +9,9 @@
 }
 
 body {
-    background-image: linear-gradient(135deg, #43CBFF 15%, #9708CC 100%);
-    height: 100vh;
+    /* background-image: linear-gradient(135deg, #43CBFF 15%, #9708CC 100%); */
+    background: #ddd;
+    height: auto;
     /* display: flex; */
     align-items: center;
     justify-content: center; 
@@ -24,7 +25,7 @@ body {
     padding: 20px 30px 30px 30px;
     background: #FFF;
     margin: 0 auto;
-    top: 10%;
+    margin-top: 10%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     z-index: 3;
     overflow: hidden;
@@ -199,10 +200,14 @@ body {
     cursor: pointer;
 }
 
+.copyRight {
+    margin-top: 6%;
+}
+
 .copyRight p {
     text-align: center;
-    margin-top: 6%;
-    color: #fff;
+    
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .copyRight a {
@@ -213,7 +218,7 @@ body {
 } 
 
 .copyRight a:hover {
-    color: #F5DA00;
+    color: blue;
 }
 
 .copyRight i {
@@ -221,5 +226,6 @@ body {
 }
 
 .copyRight a:hover i {
+    color: #161616;
     transform: scale(1.2);
 }

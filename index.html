@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="/CSS/myStyle.css">
+
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Animated Product Card</title>
+</head>
+
+<body>
+    <div class="product-card">
+        <!-- Logo Part -->
+        <div class="logo-cart">
+            <img src="images/logo.jpg" alt="logo" >
+            <i class='bx bx-shopping-bag'></i>
+        </div>
+
+        <!-- Main Part -->
+        <div class="main-images">
+            <img class="blue active" id="blue" src="images/blue.png" alt="blue" >
+            <img class="pink" id="pink" src="images/pink.png" alt="pink" >
+            <img class="yellow" id="yellow" src="images/yellow.png" alt="yellow" >
+        </div>
+
+        <div class="shoe-details">
+            <span class="shoe_name">ADDIDAS GAZE XA</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores earum unde pariatur in animi! Ad.</p>
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i> 
+            </div>
+        </div>
+
+        <div class="color-price">
+            <div class="color-option">
+                <span class="color">Colour:</span>
+                <div class="circles">
+                    <span class="circle blue active" id="blue"></span>
+                    <span class="circle pink" id="pink"></span>
+                    <span class="circle yellow" id="yellow"></span>
+                </div>
+            </div>
+
+            <div class="price">
+                <span class="price_num">BDT 3000.00</span>
+            </div>
+
+        </div>
+
+        <div class="button">
+            <div class="button-layer"></div>
+            <button>Add To Cart</button>
+        </div>
+
+    </div>
+
+    <div class="copyRight">
+        <p>&copy; All Right Reserved - 2022 || <a href="https://github.com/InjamulCSE15" title="Go to Github" target="_blank"> <i class="fa-brands fa-github"></i> &nbsp;Injamul Alam</a></p>
+    </div>
+
+    
+
+<!-- JavaScript Here -->
+<script src="JS/myScript.js"></script>
+
+</body>
+</html>

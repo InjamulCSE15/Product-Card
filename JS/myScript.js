@@ -1,4 +1,4 @@
-console.log('Js file working...');
+//console.log('Js file working...');
 
 let circle = document.querySelector(".color-option");
 
